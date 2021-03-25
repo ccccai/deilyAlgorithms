@@ -15,7 +15,7 @@
 
 * leetcode: https://leetcode-cn.com/problems/two-sum/
 
-## 2、整数反转 -easy
+## 2. 整数反转 -easy
 > 给你一个 32 位的有符号整数 x ，返回将 x 中的数字部分反转后的结果。
 
 > 如果反转后整数超过 32 位的有符号整数的范围 [−231,  231 − 1] ，就返回 0。
@@ -31,7 +31,7 @@
 
 * leetcode: https://leetcode-cn.com/problems/reverse-integer
 
-## 3、回文数 -easy
+## 3. 回文数 -easy
 > 给你一个整数 x ，如果 x 是一个回文整数，返回 true ；否则，返回 false 。
 
 > 回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。例如，121 是回文，而 123 不是。
@@ -45,7 +45,7 @@
 
 * leetcode: https://leetcode-cn.com/problems/palindrome-number
 
-## 4、罗马数字转整数 -easy
+## 4. 罗马数字转整数 -easy
 > 罗马数字包含以下七种字符: I， V， X， L，C，D 和 M。
 
 ```
@@ -78,7 +78,7 @@ M             1000
 
 * leetcode: https://leetcode-cn.com/problems/roman-to-integer
 
-## 最长公共前缀 -easy
+## 5. 最长公共前缀 -easy
 > 编写一个函数来实现查找字符串数组中的最长公共前缀。
 
 > 如果不存在公共前缀，返回空字符串""。
@@ -91,3 +91,23 @@ M             1000
 ```
 
 * leetcode: https://leetcode-cn.com/problems/longest-common-prefix
+
+## 5. 有效的括号 -easy
+> 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
+
+> 有效字符串需满足：
+
+* 左括号必须用相同类型的右括号闭合。
+* 左括号必须以正确的顺序闭合。
+
+示例
+
+```
+输入：s = "{[]}"
+输出：true
+
+输入：s = "([)]"
+输出：false
+```
+
+* leetcode: https://leetcode-cn.com/problems/valid-parentheses
