@@ -78,3 +78,16 @@ M             1000
 
 * leetcode: https://leetcode-cn.com/problems/roman-to-integer
 
+## 最长公共前缀 -easy
+> 编写一个函数来实现查找字符串数组中的最长公共前缀。
+
+> 如果不存在公共前缀，返回空字符串""。
+
+示例
+
+```
+输入：strs = ["flower", "flow", "flight"]
+输出："fl"
+```
+
+* leetcode: https://leetcode-cn.com/problems/longest-common-prefix
