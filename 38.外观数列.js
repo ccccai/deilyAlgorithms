@@ -85,7 +85,8 @@
  * @return {string}
  */
 var countAndSay = function(n) {
-  let strArr, result = 1, count = 0, currStr = '', res = '';
+  let strArr, result = 1;
+  let count, currStr, res;
 
   const getStrCount = (arr) => {
     res = '', count = 0, currStr = '';
